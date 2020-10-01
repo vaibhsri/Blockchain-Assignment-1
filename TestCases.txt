@@ -1,0 +1,116 @@
+Test name:Place new order
+
+Test Description:Beach T-shirts co should be able to call the placeOrder(quantity) method to create a new order that accepts <quantity> as numberical quantity of T-Shirts. The status and payment of the order should be set to "Pending".
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:Ensure order can only be placed with Beach's address
+
+Test Description:No other address other than Beach T-shirt co's predefined address should be able to place an order using the placeOrder(quantity) method
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:Accept Order
+
+Test Description:Thread Inc should be able to accept orders placed by Beach T-shirts co using the acceptOrder(orderNumber) method by using <orderNumber> to accept the order. The status of the order should be set to "Accepted".
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:Ensure order can only be accepted by Thread's Address
+
+Test Description:No other address other than Thread Inc's predefined address should be able to place an order using the acceptOrder(orderNumber) method.
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:Check order status
+
+Test Description:Either user should be able to check a particular order's acceptance status and payment status using the orderList(orderNumber) method
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+Test name:Confirm order payment
+
+Test Description:Beach T-shirts co should be able to call the confirmPayment(orderNumber) method to confirm the payment of <orderNumber>.
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:Ensure that order payment can only confirmed by Beach's address
+
+Test Description:No other address other than Beach T-shirt co's predefined address should be able to confirm the payment of an order using the confirmPayment(orderNumber) method.
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:
+
+Test Description:
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:
+
+Test Description:
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
+
+
+
+Test name:
+
+Test Description:
+
+Desired Outcome:
+
+Actual Outcome:
+
+Result:Pass
