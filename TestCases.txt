@@ -4,7 +4,7 @@ Test Description:Beach T-shirts co should be able to call the placeOrder(quantit
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
@@ -16,7 +16,7 @@ Test Description:No other address other than Beach T-shirt co's predefined addre
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
@@ -28,7 +28,7 @@ Test Description:Thread Inc should be able to accept orders placed by Beach T-sh
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
@@ -40,7 +40,7 @@ Test Description:No other address other than Thread Inc's predefined address sho
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
@@ -52,7 +52,7 @@ Test Description:Either user should be able to check a particular order's accept
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
@@ -63,7 +63,7 @@ Test Description:Beach T-shirts co should be able to call the confirmPayment(ord
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
@@ -75,42 +75,42 @@ Test Description:No other address other than Beach T-shirt co's predefined addre
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
 
 
-Test name:
+Test name:Place order , then accept order
 
 Test Description:
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
 
 
-Test name:
+Test name:Confirm order, then confirm payment
 
 Test Description:
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
 
 
 
-Test name:
+Test name:Place order, Accept Order, Confirm Payment
 
 Test Description:
 
 Desired Outcome:
 
-Actual Outcome:
+Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
 Result:Pass
