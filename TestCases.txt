@@ -2,7 +2,7 @@ Test name:Place new order
 
 Test Description:Beach T-shirts co should be able to call the placeOrder(quantity) method to create a new order that accepts <quantity> as numberical quantity of T-Shirts. The status and payment of the order should be set to "Pending".
 
-Desired Outcome:
+Desired Outcome:The status and payment of the order should be set to "Pending".
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -12,9 +12,9 @@ Result:Pass
 
 Test name:Ensure order can only be placed with Beach's address
 
-Test Description:No other address other than Beach T-shirt co's predefined address should be able to place an order using the placeOrder(quantity) method
+Test Description:No other address other than Beach T-shirt co's predefined address should be able to place an order using the placeOrder(quantity) method.
 
-Desired Outcome:
+Desired Outcome:No other address other than Beach T-shirt co's predefined address should be able to place an order using the placeOrder(quantity) method.
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -26,7 +26,7 @@ Test name:Accept Order
 
 Test Description:Thread Inc should be able to accept orders placed by Beach T-shirts co using the acceptOrder(orderNumber) method by using <orderNumber> to accept the order. The status of the order should be set to "Accepted".
 
-Desired Outcome:
+Desired Outcome:The status of the order should be set to "Accepted".
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -38,7 +38,7 @@ Test name:Ensure order can only be accepted by Thread's Address
 
 Test Description:No other address other than Thread Inc's predefined address should be able to place an order using the acceptOrder(orderNumber) method.
 
-Desired Outcome:
+Desired Outcome:No other address other than Thread Inc's predefined address should be able to place an order using the acceptOrder(orderNumber) method.
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -50,7 +50,7 @@ Test name:Check order status
 
 Test Description:Either user should be able to check a particular order's acceptance status and payment status using the orderList(orderNumber) method
 
-Desired Outcome:
+Desired Outcome:Either user should be able to check a particular order's acceptance status and payment status using the orderList(orderNumber) method
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -61,7 +61,7 @@ Test name:Confirm order payment
 
 Test Description:Beach T-shirts co should be able to call the confirmPayment(orderNumber) method to confirm the payment of <orderNumber>.
 
-Desired Outcome:
+Desired Outcome:Beach T-shirts co should be able to call the confirmPayment(orderNumber) method to confirm the payment of <orderNumber>.
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -73,7 +73,7 @@ Test name:Ensure that order payment can only confirmed by Beach's address
 
 Test Description:No other address other than Beach T-shirt co's predefined address should be able to confirm the payment of an order using the confirmPayment(orderNumber) method.
 
-Desired Outcome:
+Desired Outcome:No other address other than Beach T-shirt co's predefined address should be able to confirm the payment of an order using the confirmPayment(orderNumber) method.
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -83,9 +83,9 @@ Result:Pass
 
 Test name:Place order , then accept order
 
-Test Description:
+Test Description:Beach co should be able to use placeOrder() method, then Thread Inc schould be able to accept order using acceptOrder().
 
-Desired Outcome:
+Desired Outcome:Each should only be able to run methods that allocated to them.
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -95,9 +95,9 @@ Result:Pass
 
 Test name:Confirm order, then confirm payment
 
-Test Description:
+Test Description:Thread Inc should be able to confirm order, then Beach co should be able to confirm payment
 
-Desired Outcome:
+Desired Outcome:Each should only be able to run methods that allocated to them.
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
@@ -107,9 +107,9 @@ Result:Pass
 
 Test name:Place order, Accept Order, Confirm Payment
 
-Test Description:
+Test Description:Beach co should be able to place order using placeOrder(), Thread Inc should be able to accept order using acceptOrder(), Beach co should be able to confirm payment using confirmPayment().
 
-Desired Outcome:
+Desired Outcome:Beach co should be able to place order using placeOrder(), Thread Inc should be able to accept order using acceptOrder(), Beach co should be able to confirm payment using confirmPayment().
 
 Actual Outcome:On testing, I validated that the actual outcome matches the desired outcome.
 
